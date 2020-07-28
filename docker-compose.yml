@@ -12,7 +12,7 @@ services:
 #      - redis
     environment:
       POSTGRES_URI: postgres://postgres:Rez5-Kidi@postgres:5432/smart-brain
-      REDIS_URI: redis://redis
+      REDIS_URI: redis://redis:6379
     ports:
       - "3000:3000"
     volumes:
